@@ -13,6 +13,10 @@
 		51652AD424A01AC200A33EC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51652AD224A01AC200A33EC5 /* Main.storyboard */; };
 		51652AD624A01AC600A33EC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51652AD524A01AC600A33EC5 /* Assets.xcassets */; };
 		51652AD924A01AC600A33EC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51652AD724A01AC600A33EC5 /* LaunchScreen.storyboard */; };
+		51652AE124A0253A00A33EC5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51652AE024A0253A00A33EC5 /* Constants.swift */; };
+		51652AE324A0279100A33EC5 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51652AE224A0279100A33EC5 /* Video.swift */; };
+		51652AE524A027D800A33EC5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51652AE424A027D800A33EC5 /* Model.swift */; };
+		51652AE724A03B7300A33EC5 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51652AE624A03B7300A33EC5 /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		51652AD524A01AC600A33EC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51652AD824A01AC600A33EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51652ADA24A01AC600A33EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51652AE024A0253A00A33EC5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		51652AE224A0279100A33EC5 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		51652AE424A027D800A33EC5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		51652AE624A03B7300A33EC5 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				51652AD524A01AC600A33EC5 /* Assets.xcassets */,
 				51652AD724A01AC600A33EC5 /* LaunchScreen.storyboard */,
 				51652ADA24A01AC600A33EC5 /* Info.plist */,
+				51652AE024A0253A00A33EC5 /* Constants.swift */,
+				51652AE224A0279100A33EC5 /* Video.swift */,
+				51652AE424A027D800A33EC5 /* Model.swift */,
+				51652AE624A03B7300A33EC5 /* Response.swift */,
 			);
 			path = "youtube-player";
 			sourceTree = "<group>";
@@ -141,6 +153,10 @@
 				51652AD124A01AC200A33EC5 /* ViewController.swift in Sources */,
 				51652ACD24A01AC200A33EC5 /* AppDelegate.swift in Sources */,
 				51652ACF24A01AC200A33EC5 /* SceneDelegate.swift in Sources */,
+				51652AE524A027D800A33EC5 /* Model.swift in Sources */,
+				51652AE124A0253A00A33EC5 /* Constants.swift in Sources */,
+				51652AE324A0279100A33EC5 /* Video.swift in Sources */,
+				51652AE724A03B7300A33EC5 /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
